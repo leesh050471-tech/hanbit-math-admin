@@ -1,5 +1,5 @@
 // 백엔드 호출. DB 주소나 API 키는 여기 없다 — 백엔드 주소와 로그인 토큰만 쓴다.
-export const API_URL = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:4000';
+export const API_URL = process.env.NEXT_PUBLIC_API_URL ?? 'https://hanbit-math-backend-lee.onrender.com';
 const TOKEN_KEY = 'hanbit_admin_token';
 
 export class ApiError extends Error {
